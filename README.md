@@ -1,5 +1,5 @@
-# MindustryMod-Template
-Mindustry Mod Template
-日本人向け(英語の対応が難しいため)
+# Project-Mirai-Mod-master
 
-フォルダを削除したい場合はフォルダ内の".gitkeep"を消してください。
+みらい☆ミが作成したModです。
+
+編集中
