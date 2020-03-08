@@ -8,8 +8,8 @@ Production:Mirai3013
 I got permission from Guru to use the compressed item idea.
 I also got permission to open items.
 
-更新履歴:Change log/n
-・v0.0/n 
-三種類のコアとボールトのスプライトを変更。/n
-バニラの圧縮アイテムの追加。/n
+更新履歴:Change log
+・v0.0
+三種類のコアとボールトのスプライトを変更。
+バニラの圧縮アイテムの追加。
 圧縮/開封機の追加。
