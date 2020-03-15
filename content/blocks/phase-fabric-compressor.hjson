@@ -1,0 +1,30 @@
+type: GenericCrafter
+name: phase fabric compressor
+description: Compress 10 phase fabrics into one compressed phase.
+health: 301
+itemCapacity:50
+size: 2
+hasPower: felse
+hasLiquids: felse
+hasItems: true
+craftTime: 10
+updateEffect: smeltsmoke
+consumes: {
+  items: {
+    items: [
+      phase-fabric/10
+    ]
+  }
+}
+requirements: [
+  copper/100
+  lead/100
+  graphite/100
+  titanium/50
+  thorium/25
+]
+category: crafting
+research: thorium-compressor
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: compressed-phase/1

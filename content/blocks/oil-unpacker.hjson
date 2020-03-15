@@ -1,0 +1,27 @@
+	type: Fracker
+	name: oil unpacker
+	description: Remove the oil from the oil box.
+	health: 301
+	itemCapacity:10
+	hasPower: felse
+	hasItems: true
+	result: oil
+	consumes: {
+  items: {
+    items: [
+      oil-box/1
+    ]
+  }
+}
+	size: 2
+	pumpAmount: 0.501666667
+	requirements: [
+  copper/50
+  lead/50
+  graphite/50
+  fluid-box/10
+]
+	category: production
+	research: oil-packer
+	liquidCapacity: 3013
+	

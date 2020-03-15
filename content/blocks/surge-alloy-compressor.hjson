@@ -1,0 +1,30 @@
+type: GenericCrafter
+name: surge alloy compressor
+description: Compress 10 surge alloys into one compressed surge.
+health: 301
+itemCapacity:50
+size: 2
+hasPower: felse
+hasLiquids: felse
+hasItems: true
+craftTime: 10
+updateEffect: smeltsmoke
+consumes: {
+  items: {
+    items: [
+      surge-alloy/10
+    ]
+  }
+}
+requirements: [
+  copper/300
+  lead/400
+  titanium/200
+  silicon/300
+  surge-alloy/100
+]
+category: crafting
+research: titanium-compressor
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: compressed-surge/1

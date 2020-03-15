@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: blast compound unpacker
+description: Unpack one compressed blast into 10 blast compound.
+health: 301
+itemCapacity:50
+size: 2
+hasPower: felse
+hasLiquids: felse
+hasItems: true
+craftTime: 10
+updateEffect: smeltsmoke
+consumes: {
+  items: {
+    items: [
+      compressed-blast/1
+    ]
+  }
+}
+requirements: [
+  copper/50
+  lead/50
+  graphite/50
+]
+category: crafting
+research: spore-pod-unpacker
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: blast-compound/10

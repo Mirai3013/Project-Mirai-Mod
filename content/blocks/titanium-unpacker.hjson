@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: titanium unpacker
+description: Unpack one compressed titanium into 10 titanium.
+health: 301
+itemCapacity:50
+size: 2
+hasPower: felse
+hasLiquids: felse
+hasItems: true
+craftTime: 10
+updateEffect: smeltsmoke
+consumes: {
+  items: {
+    items: [
+      compressed-titanium/1
+    ]
+  }
+}
+requirements: [
+  copper/50
+  lead/50
+  graphite/50
+]
+category: crafting
+research: silicon-unpacker
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: titanium/10

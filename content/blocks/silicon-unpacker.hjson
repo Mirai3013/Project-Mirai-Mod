@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: silicon unpacker
+description: Unpack one compressed silicon into 10 silicon.
+health: 301
+itemCapacity:50
+size: 2
+hasPower: felse
+hasLiquids: felse
+hasItems: true
+craftTime: 10
+updateEffect: smeltsmoke
+consumes: {
+  items: {
+    items: [
+      compressed-silicon/1
+    ]
+  }
+}
+requirements: [
+  copper/50
+  lead/50
+  graphite/50
+]
+category: crafting
+research: graphite-unpacker
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: silicon/10

@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: titanium compressor
+description: Compress 10 titaniums into one compressed titanium.
+health: 301
+itemCapacity:50
+size: 2
+hasPower: felse
+hasLiquids: felse
+hasItems: true
+craftTime: 10
+updateEffect: smeltsmoke
+consumes: {
+  items: {
+    items: [
+      titanium/10
+    ]
+  }
+}
+requirements: [
+  copper/50
+  lead/50
+  graphite/50
+]
+category: crafting
+research: silicon-compressor
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: compressed-titanium/1

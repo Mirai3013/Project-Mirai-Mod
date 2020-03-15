@@ -1,0 +1,29 @@
+type: GenericCrafter
+name: thorium unpacker
+description: Unpack one compressed thorium into 10 thorium.
+health: 301
+itemCapacity:50
+size: 2
+hasPower: felse
+hasLiquids: felse
+hasItems: true
+craftTime: 10
+updateEffect: smeltsmoke
+consumes: {
+  items: {
+    items: [
+      compressed-thorium/1
+    ]
+  }
+}
+requirements: [
+  copper/100
+  lead/100
+  graphite/100
+  titanium/50
+]
+category: crafting
+research: titanium-unpacker
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: thorium/10

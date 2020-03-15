@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: spore pod unpacker
+description: Unpack one compressed spore pod into 10 spore pod.
+health: 301
+itemCapacity:50
+size: 2
+hasPower: felse
+hasLiquids: felse
+hasItems: true
+craftTime: 10
+updateEffect: smeltsmoke
+consumes: {
+  items: {
+    items: [
+      compressed-spore/1
+    ]
+  }
+}
+requirements: [
+  copper/50
+  lead/50
+  graphite/50
+]
+category: crafting
+research: sand-unpacker
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: spore-pod/10

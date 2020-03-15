@@ -1,0 +1,29 @@
+type: GenericCrafter
+name: thorium compressor
+description: Compress 10 thoriums into one compressed thorium.
+health: 301
+itemCapacity:50
+size: 2
+hasPower: felse
+hasLiquids: felse
+hasItems: true
+craftTime: 10
+updateEffect: smeltsmoke
+consumes: {
+  items: {
+    items: [
+      thorium/10
+    ]
+  }
+}
+requirements: [
+  copper/100
+  lead/100
+  graphite/100
+  titanium/50
+]
+category: crafting
+research: titanium-compressor
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: compressed-thorium/1

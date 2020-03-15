@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: sand unpacker
+description: Unpack one compressed sand into 10 sand.
+health: 301
+itemCapacity:50
+size: 2
+hasPower: felse
+hasLiquids: felse
+hasItems: true
+craftTime: 10
+updateEffect: smeltsmoke
+consumes: {
+  items: {
+    items: [
+      compressed-sand/1
+    ]
+  }
+}
+requirements: [
+  copper/50
+  lead/50
+  graphite/50
+]
+category: crafting
+research: scrap-unpacker
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: sand/10

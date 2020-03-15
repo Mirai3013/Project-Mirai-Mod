@@ -1,0 +1,29 @@
+type: GenericCrafter
+name: cryofluid packer
+description: Box cryofluid in a liquid box.
+health: 301
+itemCapacity:30
+liquidCapacity:301
+size: 2
+hasPower: felse
+hasLiquids: true
+hasItems: true
+craftTime: 60
+updateEffect: smeltsmoke
+consumes: {
+  liquid: {
+    liquid:cryofluid
+    amount:0.501666667
+  }
+}
+requirements: [
+  copper/50
+  lead/50
+  graphite/50
+  fluid-box/10
+]
+category: crafting
+research: fluid-box-crafter
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: cryofluid-box/1

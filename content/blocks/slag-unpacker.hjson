@@ -1,0 +1,27 @@
+	type: Fracker
+	name: slag unpacker
+	description: Remove the slag from the slag box.
+	health: 301
+	itemCapacity:10
+	hasPower: felse
+	hasItems: true
+	result: slag
+	consumes: {
+  items: {
+    items: [
+      slag-box/1
+    ]
+  }
+}
+	size: 2
+	pumpAmount: 0.501666667
+	requirements: [
+  copper/50
+  lead/50
+  graphite/50
+  fluid-box/10
+]
+	category: production
+	research: slag-packer
+	liquidCapacity: 3013
+	

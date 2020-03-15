@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: water packer
+description: Box water in a fluid box.
+health: 301
+itemCapacity:30
+size: 2
+hasPower: felse
+hasLiquids: true
+hasItems: true
+craftTime: 60
+updateEffect: smeltsmoke
+consumes: {
+  liquid: {
+    liquid:water
+    amount:0.501666667
+  }
+}
+requirements: [
+  copper/50
+  lead/50
+  graphite/50
+  fluid-box/10
+]
+category: crafting
+research: fluid-box-crafter
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: water-box/1

@@ -1,0 +1,32 @@
+	type: GenericSmelter
+	name: currentium forge
+	description: Forge Currentium with multiple materials.
+	health: 3013
+	itemCapacity: 60
+	outputItem: currentium/1
+	size: 2
+	hasPower: true
+	hasLiquids: felse
+	hasItems: true
+	craftTime: 60
+	updateEffect: smeltsmoke
+	consumes: {
+	    power: 0.5
+		items: {
+			items: [
+			compressed-copper/3
+        	compressed-lead/2
+        	compressed-titanium/1
+			]
+		}
+	}
+	requirements: [
+	compressed-copper/30
+	compressed-lead/20
+	compressed-titanium/10
+]
+	category: crafting
+	research: miranium-forge
+	idleSound: respawning
+	idleSoundVolume: 0.5
+	

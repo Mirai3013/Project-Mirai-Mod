@@ -1,0 +1,32 @@
+	type: GenericSmelter
+	name: pastium forge
+	description: Forge Pastium with multiple materials.
+	health: 3013
+	itemCapacity: 60
+	outputItem: pastium/1
+	size: 2
+	hasPower: true
+	hasLiquids: felse
+	hasItems: true
+	craftTime: 60
+	updateEffect: smeltsmoke
+	consumes: {
+	    power: 0.5
+		items: {
+			items: [
+			compressed-graphite/4
+        	compressed-silicon/2
+        	compressed-metaglass/2
+			]
+		}
+	}
+	requirements: [
+	compressed-graphite/50
+	compressed-silicon/25
+	compressed-metaglass/25
+]
+	category: crafting
+	research: currentium-forge
+	idleSound: respawning
+	idleSoundVolume: 0.5
+	

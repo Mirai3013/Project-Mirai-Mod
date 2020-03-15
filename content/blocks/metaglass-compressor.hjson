@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: metaglass compressor
+description: Compress 10 metaglasses into one compressed metaglass.
+health: 301
+itemCapacity:50
+size: 2
+hasPower: felse
+hasLiquids: felse
+hasItems: true
+craftTime: 10
+updateEffect: smeltsmoke
+consumes: {
+  items: {
+    items: [
+      metaglass/10
+    ]
+  }
+}
+requirements: [
+  copper/50
+  lead/50
+  graphite/50
+]
+category: crafting
+research: graphite-compressor
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: compressed-metaglass/1

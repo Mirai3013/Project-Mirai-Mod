@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: graphite unpacker
+description: Unpack one compressed graphite into 10 graphite.
+health: 301
+itemCapacity:50
+size: 2
+hasPower: felse
+hasLiquids: felse
+hasItems: true
+craftTime: 10
+updateEffect: smeltsmoke
+consumes: {
+  items: {
+    items: [
+      compressed-graphite/1
+    ]
+  }
+}
+requirements: [
+  copper/50
+  lead/50
+  graphite/50
+]
+category: crafting
+research: lead-unpacker
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: graphite/10

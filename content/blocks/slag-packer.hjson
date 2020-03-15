@@ -1,0 +1,29 @@
+type: GenericCrafter
+name: slag packer
+description: Box slag in a liquid box.
+health: 301
+itemCapacity:60
+liquidCapacity:301
+size: 2
+hasPower: felse
+hasLiquids: true
+hasItems: true
+craftTime: 30
+updateEffect: smeltsmoke
+consumes: {
+  liquid: {
+    liquid:slag
+    amount:0.501666667
+  }
+}
+requirements: [
+  copper/50
+  lead/50
+  graphite/50
+  fluid-box/10
+]
+category: crafting
+research: fluid-box-crafter
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: slag-box/1

@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: coal unpacker
+description: Unpack one compressed coal into 10 coal.
+health: 301
+itemCapacity:50
+size: 2
+hasPower: felse
+hasLiquids: felse
+hasItems: true
+craftTime: 10
+updateEffect: smeltsmoke
+consumes: {
+  items: {
+    items: [
+      compressed-coal/1
+    ]
+  }
+}
+requirements: [
+  copper/50
+  lead/50
+  graphite/50
+]
+category: crafting
+research: lead-unpacker
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: coal/10

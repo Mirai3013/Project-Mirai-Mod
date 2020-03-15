@@ -1,0 +1,27 @@
+	type: Fracker
+	name: cryofluid unpacker
+	description: Remove the cryofluid from the cryofluid box.
+	health: 301
+	itemCapacity:10
+	hasPower: felse
+	hasItems: true
+	result: cryofluid
+	consumes: {
+    items: {
+      items: [
+        cryofluid-box/1
+      ]
+    }
+}
+	size: 2
+	pumpAmount: 0.501666667
+	requirements: [
+  copper/50
+  lead/50
+  graphite/50
+  fluid-box/10
+]
+	category: production
+	research: cryofluid-packer
+	liquidCapacity: 3013
+	

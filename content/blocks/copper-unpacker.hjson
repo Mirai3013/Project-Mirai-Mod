@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: copper unpacker
+description: Unpack one compressed copper into 10 copper.
+health: 301
+itemCapacity:50
+size: 2
+hasPower: felse
+hasLiquids: felse
+hasItems: true
+craftTime: 10
+updateEffect: smeltsmoke
+consumes: {
+  items: {
+    items: [
+      compressed-copper/1
+    ]
+  }
+}
+requirements: [
+  copper/50
+  lead/50
+  graphite/50
+]
+category: crafting
+research: copper-compressor
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: copper/10

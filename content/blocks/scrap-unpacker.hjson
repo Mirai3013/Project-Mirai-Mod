@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: scrap unpacker
+description: Unpack one compressed scrap into 10 scrap.
+health: 301
+itemCapacity:50
+size: 2
+hasPower: felse
+hasLiquids: felse
+hasItems: true
+craftTime: 10
+updateEffect: smeltsmoke
+consumes: {
+  items: {
+    items: [
+      compressed-scrap/1
+    ]
+  }
+}
+requirements: [
+  copper/50
+  lead/50
+  graphite/50
+]
+category: crafting
+research: copper-unpacker
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: scrap/10

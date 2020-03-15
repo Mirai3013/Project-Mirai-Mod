@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: sand compressor
+description: Compress 10 sands into one compressed sand.
+health: 301
+itemCapacity:50
+size: 2
+hasPower: felse
+hasLiquids: felse
+hasItems: true
+craftTime: 10
+updateEffect: smeltsmoke
+consumes: {
+  items: {
+    items: [
+      sand/10
+    ]
+  }
+}
+requirements: [
+  copper/50
+  lead/50
+  graphite/50
+]
+category: crafting
+research: scrap-compressor
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: compressed-sand/1
