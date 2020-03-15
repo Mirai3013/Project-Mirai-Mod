@@ -1,0 +1,4 @@
+    type:"material"
+    name:"miranium"
+    description:"This is a special material created using multiple materials."
+    color:"8afbff"

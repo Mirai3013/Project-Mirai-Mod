@@ -1,0 +1,5 @@
+    type:"material"
+    name:"fluid Box"
+    description:"Box for storing liquid."
+    color:"cfcfcf"
+    

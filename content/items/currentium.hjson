@@ -1,0 +1,4 @@
+    type:"material"
+    name:"currentium"
+    description:"This is a special material created using multiple materials."
+    color:"ffff00"
