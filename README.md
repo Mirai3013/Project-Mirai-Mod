@@ -1,4 +1,4 @@
-# Project-Mirai-Mod-master
+# Project-Mirai-Mod
 
 製作:みらい☆ミ
 
